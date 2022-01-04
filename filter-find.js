@@ -11,7 +11,6 @@ const products = [
     { name: 'Aunglass', price: 300, brand: 'Ribon', color: 'Blue' },
     { name: 'Camera', price: 9000, brand: 'Lenovo', color: 'Gray' },
 ];
-// const bigNumbers = products.filter(product => product.price > 4000);
 const bigNumbers = products.find(product => product.price > 4000);
 console.log(bigNumbers);
-//Output: [30]
+//output:{ name: 'Laptop', price: 32000, brand: 'Lenovo', color: 'Silver' }

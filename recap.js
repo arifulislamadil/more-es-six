@@ -31,3 +31,4 @@ console.log(numbersMax);
 const square = (a, b) => a * b;
 const square = a => a * 3;
 console.log(square(3));
+
